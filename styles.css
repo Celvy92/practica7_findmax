@@ -1,0 +1,56 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-image: url('imagenes/navidad3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(29, 53, 87, 0.85);
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 20px;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f77f00;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d62828;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
